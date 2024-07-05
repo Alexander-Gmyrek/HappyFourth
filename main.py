@@ -13,7 +13,7 @@ firework.hideturtle()
 
 # Function to draw a firework burst
 def draw_firework(x, y):
-    colors = ["red", "yellow", "blue", "green", "orange", "white"]
+    colors = ["red",  "blue", "white"]
     firework.penup()
     firework.goto(x, y)
     firework.pendown()
